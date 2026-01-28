@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+    <div id="pagetop">
+        <input placeholder=" Add Task" id="input">
+        <button id = "add" >+</button>
+        <button id = "clear" onclick = "clearAll()">C</button>
+        <img src="img/images.jpg" id="trash">
+    </div>
+    
+    
+    <div id="container">
+        <div class="box" id="todo">
+            <h3>To Do</h3>
+            <div class="box-content"></div>
+        </div>
+        <div class="box" id="progress">
+            <h3>Doing</h3>
+            <div class="box-content"></div>
+        </div>
+        <div class="box" id="done">
+            <h3>Done!</h3>
+            <div class="box-content"></div>
+        </div>
+    </div>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
